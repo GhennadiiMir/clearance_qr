@@ -1,8 +1,7 @@
 # ClearanceQr
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/clearance_qr`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Add QR code password-less login functionality for with your rails app using
+[Clearance authentication](https://github.com/thoughtbot/clearance) gem.
 
 ## Installation
 
@@ -22,7 +21,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Include QR login partial aside or instead your sign-in form:
+
+```ruby
+render partial: "clearance_qr/qr_login"
+```
+
+2. 
+
 
 ## Development
 
@@ -41,3 +47,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the ClearanceQr project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/clearance_qr/blob/master/CODE_OF_CONDUCT.md).
+
+## ToDo
+
+* change `ws://` to `wss://` in Configuration
