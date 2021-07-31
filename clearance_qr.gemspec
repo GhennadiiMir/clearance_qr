@@ -5,8 +5,8 @@ require_relative "lib/clearance_qr/version"
 Gem::Specification.new do |spec|
   spec.name          = "clearance_qr"
   spec.version       = ClearanceQr::VERSION
-  spec.authors       = ["ghennadiimirosnicenco"]
-  spec.email         = ["ghennadiimirosnicenco@charanga.com"]
+  spec.authors       = ["Ghennadii Mirosnicenco"]
+  spec.email         = ["linkator7@gmail.com"]
 
   spec.summary       = "QR login for 'clearance' ruby gem"
   spec.description   = "Allow you users login without password"

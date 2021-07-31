@@ -27,7 +27,7 @@ Or install it yourself as:
 render partial: "clearance_qr/qr_login"
 ```
 
-2. 
+2.
 
 
 ## Development
@@ -51,3 +51,7 @@ Everyone interacting in the ClearanceQr project's codebases, issue trackers, cha
 ## ToDo
 
 * change `ws://` to `wss://` in Configuration
+* test controller
+* including js files
+    * https://github.com/rails/webpacker/issues/57
+    * https://stackoverflow.com/questions/57274962/how-to-use-js-files-from-gem-in-rails-6-application

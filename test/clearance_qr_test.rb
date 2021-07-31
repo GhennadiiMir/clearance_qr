@@ -7,7 +7,7 @@ class ClearanceQrTest < Minitest::Test
     refute_nil ::ClearanceQr::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
-  end
+  # def test_it_does_something_useful
+  #   assert_routing '/home', controller: 'home', action: 'index'
+  # end
 end

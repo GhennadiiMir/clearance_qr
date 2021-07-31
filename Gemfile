@@ -2,7 +2,6 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in clearance_qr.gemspec
 gemspec
 
 gem "rake", "~> 13.0"
